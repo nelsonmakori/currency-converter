@@ -17,10 +17,10 @@
       <div class="from">
         <img src="https://flagsapi.com/US/flat/64.png">
         <label>From</label><br>
-        <select>
-          <option>USD</option>
-          <option>KSH</option>
-          <option>NPR</option>
+        <select class="from-currency">
+          <option value="USD">USD</option>
+          <option value="KSH">KSH</option>
+          <option value="NPR">NPR</option>
           
         </select>
           
@@ -36,18 +36,22 @@
       <div class="to">
         <img src="https://flagsapi.com/KE/flat/64.png">
         <label>To</label><br>
-        <select>
-          <option>KSH</option>
+        <select class="to-currency">
+          <option>KES</option>
+          <option>MXN</option>
         </select>
 
       </div>
       
     </div>
-    <p>1 USD = 125.16 KSH</p>
-      <button>Get Exchange Rate</button>
+    <p class="paragraph">1 USD = 125.16 KSH</p>
+      <button class="btn">Get Exchange Rate</button>
 
     
 
   </div>
+
+  <script src="currency.js
+  "></script>
 </body>
 </html>
